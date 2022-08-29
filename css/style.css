@@ -1,0 +1,168 @@
+
+
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap);
+
+body {
+    background: #F3F3F3;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    left: 0px;
+    top: 0px;
+    background: #222222;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.header-caixa img {
+    position: absolute;
+    width: 234px;
+    height: 80px;
+    left: 20px;
+    top: 10px;
+}
+.header-caixa nav {
+    position: absolute;
+    width: 236px;
+    height: 19px;
+    left: 70%;
+    top: 40px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    color: #F3F3F3;
+}
+
+
+.header-caixa a {
+    text-decoration: none;
+}
+section {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    position: absolute;
+    width: 99.5%;
+    height: 460px;
+    top: 20%;
+}
+.pizza {
+    background-image: url(../imagem/delivery.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 490px;
+    height: 350px;
+}
+
+
+.pizza h2 {
+    position: absolute;
+    width: 485px;
+    height: 28px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 0px;
+    text-align: center;
+    color: #FC200C;
+}
+
+
+.pizza span {
+    color: #FFFFFF;
+}
+.cardapio {
+    width: 491px;
+    height: 350px;
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+.cardapio img {
+    position: absolute;
+    width: 92px;
+    height: 129px;
+    left: 68%;
+    top: 117px;
+}
+.cardapio h2 {
+    position: absolute;
+    width: 205px;
+    height: 28px;
+    left: 58%;
+    top: 5px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FC200C;
+}
+.cardapio p {
+    position: absolute;
+    width: 110.44px;
+    height: 23px;
+    left: 55%;
+    top: 75px;
+    font-family:'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #222222;
+}
+.cardapio ol {
+    position: absolute;
+    width: 135px;
+    height: 19px;
+    left: 52%;
+    top: 130px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 30px;
+    color: #222222;
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+    flex: auto;
+    position: absolute;
+    width: 100%;
+    height: 150px;
+    left: 0px;
+    bottom: 0px;
+    background: #222222;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.footer-caixa img {
+    position: absolute;
+    width: 212px;
+    height: 80px;
+    left: 75%;
+    top: 30px;
+}
+.footer-caixa nav {
+    position: absolute;
+    width: 74px;
+    height: 112px;
+    left: 40px;
+    top: 30px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: #F3F3F3;
+}
+.footer-caixa a {
+    text-decoration: none;
+}
+
+
